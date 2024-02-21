@@ -4,8 +4,8 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 export const Home = () => {
   return (
-    <main className="container">
-      <div className="flex items-center justify-around mt-32">
+    <section>
+      <div className="flex items-center justify-around mt-32 mr-32 ml-32">
         <div className="flex w-1/2 items-center justify-center">
           <Card className="flex-col p-4">
             <CardTitle className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
@@ -28,6 +28,6 @@ export const Home = () => {
           <Laptop />
         </div>
       </div>
-    </main>
+    </section>
   );
 };
