@@ -8,7 +8,7 @@ export const Home = () => {
       <div className="flex items-center justify-around mt-32 mr-32 ml-32">
         <div className="flex w-1/2 items-center justify-center">
           <Card className="flex-col p-4">
-            <CardTitle className="text-4xl font-extrabold tracking-tight lg:text-5xl">
+            <CardTitle className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
               Samuel Alves
             </CardTitle>
             <CardDescription className="leading-7 [&:not(:first-child)]:mt-6">

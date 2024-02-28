@@ -1,3 +1,5 @@
+import { Github } from "lucide-react";
+
 interface IProject {
   title: string;
   description?: string;
@@ -10,10 +12,13 @@ const Project = ({ title, description, url }: IProject) => {
   // };
 
   return (
-    <div className="section flex items-center justify-center flex-col w-[300px] h-[300px] bg-slate-500">
+    <div className="flex items-center justify-around flex-col w-[300px] h-[300px] bg-zinc-300 hover:bg-zinc-600 shadow-[0_9px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-black ease-out hover:translate-y-1 transition-all rounded">
       <h1>{title}</h1>
       <p>{description}</p>
-      <a href={url}>go to</a>
+
+      <Github>
+        <a href={url}>go to</a>
+      </Github>
     </div>
   );
 };
@@ -21,16 +26,16 @@ const Project = ({ title, description, url }: IProject) => {
 export const Projects = () => {
   return (
     <section className="mt-32">
-      <div className="flex container items-center">
-        <h1>projects</h1>
-      </div>
-      <div className="grid grid-cols-3 justify-items-center gap-8 mt-8">
+      <h2 className="m-16 croll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        work
+      </h2>
+      <div className="section grid grid-cols-3 justify-items-center gap-8 mt-8 mb-8">
         <Project title="projeto 1" url="#" />
-        <Project title="projeto 1" url="#" />
-        <Project title="projeto 1" url="#" />
-        <Project title="projeto 1" url="#" />
-        <Project title="projeto 1" url="#" />
-        <Project title="projeto 1" url="#" />
+        <Project title="projeto 2" url="#" />
+        <Project title="projeto 3" url="#" />
+        <Project title="projeto 4" url="#" />
+        <Project title="projeto 5" url="#" />
+        <Project title="projeto 6" url="#" />
       </div>
     </section>
   );
