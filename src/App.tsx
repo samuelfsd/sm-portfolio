@@ -1,15 +1,19 @@
 import { Header } from "@/components/section/Header";
-import { Home } from "@/components/section/Home";
-import { Projects } from "@/components/section/Projects";
+import { Home } from "@/pages/Home";
+import { Projects } from "@/pages/Projects";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-function App() {
+export const App = () => {
   return (
     <>
-      <Header />
-      <Home />
-      <Projects />
+      <BrowserRouter>
+        <Header />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
-}
-
-export default App;
+};
