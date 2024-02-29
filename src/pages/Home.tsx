@@ -15,11 +15,24 @@ export const Home = () => {
           Samuel Alves
         </CardTitle>
         <CardDescription className="leading-7 [&:not(:first-child)]:mt-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          repellat maxime voluptatibus sunt, qui saepe iusto delectus, minima
-          perferendis veniam ratione similique. Accusamus quibusdam praesentium
-          quae eaque consequatur voluptate quos.
+          I'm a computer science student at the State University of Paraíba
+          (UEPB).
         </CardDescription>
+        <CardDescription>
+          Today, I work in software development with a focus on web development.
+          I have good conversational and technical skills. I work using the best
+          market practices and following an agile development culture.
+        </CardDescription>
+        <CardDescription>
+          I always seek clean communication with my teammates and deliver my
+          tasks in the best possible way.
+        </CardDescription>
+
+        <CardDescription>
+          I'm always looking for more technical knowledge to improve my skills.
+          I'm currently studying React Native, Flask and Golang.
+        </CardDescription>
+
         <CardFooter className="flex mt-4 items-center gap-4">
           <Linkedin />
           <Github />
