@@ -14,25 +14,27 @@ export const Home = () => {
         <CardTitle className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Samuel Alves
         </CardTitle>
-        <CardDescription className="leading-7 [&:not(:first-child)]:mt-6">
-          I'm a computer science student at the State University of Paraíba
-          (UEPB).
-        </CardDescription>
-        <CardDescription>
-          Today, I work in software development with a focus on web development.
-          I have good conversational and technical skills. I work using the best
-          market practices and following an agile development culture.
-        </CardDescription>
-        <CardDescription>
-          I always seek clean communication with my teammates and deliver my
-          tasks in the best possible way.
-        </CardDescription>
+        <div className="flex flex-col gap-3 mt-2 mb-2">
+          <CardDescription className="leading-7 [&:not(:first-child)]:mt-6">
+            I'm a computer science student at the State University of Paraíba
+            (UEPB).
+          </CardDescription>
+          <CardDescription>
+            Today, I work in software development with a focus on web
+            development. I have good conversational and technical skills. I work
+            using the best market practices and following an agile development
+            culture.
+          </CardDescription>
+          <CardDescription>
+            I always seek clean communication with my teammates and deliver my
+            tasks in the best possible way.
+          </CardDescription>
 
-        <CardDescription>
-          I'm always looking for more technical knowledge to improve my skills.
-          I'm currently studying React Native, Flask and Golang.
-        </CardDescription>
-
+          <CardDescription>
+            I'm always looking for more technical knowledge to improve my
+            skills. I'm currently studying React Native, Flask and Golang.
+          </CardDescription>
+        </div>
         <CardFooter className="flex mt-4 items-center gap-4">
           <Linkedin />
           <Github />
