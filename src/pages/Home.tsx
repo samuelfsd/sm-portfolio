@@ -36,9 +36,19 @@ export const Home = () => {
           </CardDescription>
         </div>
         <CardFooter className="flex mt-4 items-center gap-4">
-          <Linkedin />
-          <Github />
-          <Twitter />
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/samuel-alves-medeiros-235461217"
+          >
+            <Linkedin />
+          </a>
+          <a target="_blank" href="https://github.com/samuelfsd">
+            <Github />
+          </a>
+
+          <a target="_blank" href="https://twitter.com/samuelAlv7">
+            <Twitter />
+          </a>
         </CardFooter>
       </Card>
 
