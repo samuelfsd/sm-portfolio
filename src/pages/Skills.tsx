@@ -1,5 +1,4 @@
 import { FaJava, FaPython, FaReact, FaDocker } from "react-icons/fa";
-import { FileJson } from "lucide-react";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiSpring } from "react-icons/si";
 
@@ -20,7 +19,7 @@ export const Skills = () => {
         <div className="flex flex-col items-center gap-3">
           <RiJavascriptFill size={32} />
           <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-            JS
+            JavaScript
           </code>
         </div>
         <div className="flex flex-col items-center gap-3">
@@ -33,7 +32,7 @@ export const Skills = () => {
           <SiSpring size={32} />
 
           <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
-            Spring
+            Spring Boot
           </code>
         </div>
         <div className="flex flex-col items-center gap-3">
