@@ -12,9 +12,9 @@ export const App = () => {
         <Header />
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/sm-porfolio/" element={<Home />} />
+          <Route path="/sm-porfolio/projects" element={<Projects />} />
+          <Route path="/sm-porfolio/skills" element={<Skills />} />
         </Routes>
       </BrowserRouter>
     </>
