@@ -9,8 +9,8 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 
 export const Home = () => {
   return (
-    <div className="flex items-center justify-around gap-32 mt-64 ">
-      <Card className="flex flex-col p-4 w-[700px]">
+    <div className="flex items-center justify-center p-8 mt-64 lg:justify-around lg:gap-32">
+      <Card className="flex flex-col m-25 p-8 lg:w-[600px]">
         <CardTitle className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Samuel Alves
         </CardTitle>
@@ -52,7 +52,7 @@ export const Home = () => {
         </CardFooter>
       </Card>
 
-      <div className="flex items-center">
+      <div className="hidden lg:flex lg:items-center">
         <Laptop />
       </div>
     </div>
