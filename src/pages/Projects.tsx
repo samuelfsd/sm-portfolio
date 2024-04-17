@@ -29,9 +29,9 @@ export const Projects = () => {
   return (
     <section className="mt-32">
       <h2 className="m-16 croll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        projects
+        Projects
       </h2>
-      <div className="section grid grid-cols-3 justify-items-center gap-8 mt-8 mb-8">
+      <div className="section flex flex-col items-center lg:grid lg:grid-cols-3 lg:justify-items-center gap-8 mt-8 mb-8">
         <Project
           title="knex"
           description="landing page for knex company"

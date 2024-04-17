@@ -6,9 +6,9 @@ export const Skills = () => {
   return (
     <div className="mt-32">
       <h2 className="m-16 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        skills
+        Skills
       </h2>
-      <div className="section grid grid-cols-3 justify-items-center gap-8 mt-8 mb-8">
+      <div className="section flex flex-col items-center justify-center md:grid md:grid-cols-3 md:justify-items-center gap-8 mt-8 mb-8">
         <div className="flex flex-col items-center gap-3">
           <FaJava size={32} />
           <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold">
