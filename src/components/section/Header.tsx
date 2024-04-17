@@ -23,6 +23,7 @@ export const Header = () => {
           <a target="_blank" href="https://github.com/samuelfsd">
             <Avatar className="flex center items-center justify-center text-white w-14 h-14">
               <AvatarImage
+                loading="lazy"
                 alt="Imagem de perfil"
                 src="https://github.com/samuelfsd.png"
               />
