@@ -22,7 +22,10 @@ export const Header = () => {
         <div>
           <a target="_blank" href="https://github.com/samuelfsd">
             <Avatar className="flex center items-center justify-center text-white w-14 h-14">
-              <AvatarImage src="https://github.com/samuelfsd.png" />
+              <AvatarImage
+                alt="Imagem de perfil"
+                src="https://github.com/samuelfsd.png"
+              />
               <AvatarFallback>SM</AvatarFallback>
             </Avatar>
           </a>
